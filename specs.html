@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css\specs.css">
+    <script src="_javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="icone" src="_imagens\especificacoes.png" alt="">
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudafoto(`_imagens/home.png`)"
+                        onmouseout="mudafoto(`_imagens/especificacoes.png`)"> <a href="index.html">Home</a> </li>
+                    <li onmouseover="mudafoto(`_imagens/especificacoes.png`)"
+                        onmouseout="mudafoto(`_imagens/especificacoes.png`)"> <a href="specs.html">Especificações</a>
+                    </li>
+                    <li onmouseover="mudafoto(`_imagens/fotos.png`)"
+                        onmouseout="mudafoto(`_imagens/especificacoes.png`)"> <a href="fotos.html">Fotos</a> </li>
+                    <li onmouseover="mudafoto(`_imagens/multimidia.png`)"
+                        onmouseout="mudafoto(`_imagens/especificacoes.png`)"> <a href="multimidia.html">Multimídia</a>
+                    </li>
+                    <li onmouseover="mudafoto(`_imagens/contato.png`)"
+                        onmouseout="mudafoto(`_imagens/especificacoes.png`)"> <a href="fale-conosco.html">Fale
+                            conosco</a> </li>
+                </ul>
+            </nav>
+
+        </header>
+        <section id="corpo-full">
+            <article id="noticia-pricipal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>
+                            Glass > Especificações
+                        </h3>
+                        <h1>
+                            Raio-X no Google Glass
+                        </h1>
+                        <h2>
+                            por Gustavo Guanabara
+                        </h2>
+                        <h3 class="direita">
+                            Atualizado em 01/Maio/2013
+                        </h3>
+                    </hgroup>
+                </header>
+                <p>
+                    Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
+                    Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+                </p>
+                <section id="conteudo">
+                    <img src="_imagens\glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
+                    <map name="meumapa">
+                        <area shape="poly" coords="183,220,265,208,267,242,186,255" href="google-glass.html#tela" alt=""
+                            target="janela">
+                        <area shape="circle" coords="158,245,10" href="google-glass.html#camera" alt="" target="janela">
+                        <area shape="circle" coords="75,49,11" href="google-glass.html#gadgets" alt="" target="janela">
+                        <area shape="poly" coords="27,143,82,218,83,249,27,167" href="google-glass.html#sensores" alt=""
+                            target="janela">
+                    </map>
+                    <iframe src="google-glass.html" frameborder="0" name="janela" id="frame-spec"
+                        scrolling="no"></iframe>
+                </section>
+            </article>
+        </section>
+
+
+        <footer id="rodape">
+            <p>
+                Copyright &nbsp;&copy; 2013 - by Gustavo Guanabara <br>
+                <a href="http://facebook.com/cursosemvideo" target="blank">Facebook </a> |
+                <a href="https://twitter.com/cursosemvideo" target="blank"> Twitter </a>
+            </p>
+        </footer>
+
+        </ol>
+    </div>
+</body>
+
+</html>

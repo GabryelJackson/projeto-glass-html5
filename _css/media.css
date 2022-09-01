@@ -1,0 +1,23 @@
+#tv-radio {
+    width: 740px;
+    height: 846px;
+    margin: auto;
+    background: url(../_imagens/tv-na-sala-de-estar-psd-mockup_1150-37388.webp) no-repeat;
+}
+
+#musica {
+    display: block;
+    position: relative;
+    left: 230px;
+    top: 680px;
+    width: 300px;
+}
+
+#filme {
+    display: block;
+    position: relative;
+    left: 110px;
+    top: 80px;
+    width: 520px;
+    height: 300px;
+}
